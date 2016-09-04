@@ -1,3 +1,4 @@
+package domain;
 
 public class Planner {
     private String id;

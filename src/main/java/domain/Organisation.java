@@ -1,3 +1,4 @@
+package domain;
 
 public abstract class Organisation {
     private String id;

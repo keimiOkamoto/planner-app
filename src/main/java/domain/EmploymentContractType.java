@@ -1,3 +1,4 @@
+package domain;
 
 public enum EmploymentContractType {
     FULL_TIME,
