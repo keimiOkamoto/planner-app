@@ -1,7 +1,6 @@
-package PACKAGE_NAME;
 
-/**
- * Created by Keimi on 06/09/2016.
- */
-public class IdGenorator {
+public class IdGenerator {
+    public static String getId() {
+        return "123";
+    }
 }
