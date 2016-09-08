@@ -1,7 +1,8 @@
-package PACKAGE_NAME;
+import domain.Planner;
 
-/**
- * Created by Keimi on 06/09/2016.
- */
 public class PlannerService {
+
+    public Planner createPlanner() {
+        return new Planner(IdGenerator.getId());
+    }
 }
