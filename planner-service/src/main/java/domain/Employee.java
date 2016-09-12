@@ -9,12 +9,8 @@ public abstract class Employee {
     private String employmentStartDate;
     private EmploymentContractType employmentContractType;
 
-    public Employee(String id, String name, LocalDate dob, String employmentStartDate, EmploymentContractType employmentContractType) {
+    public Employee(String id) {
         this.id = id;
-        this.name = name;
-        this.dob = dob;
-        this.employmentStartDate = employmentStartDate;
-        this.employmentContractType = employmentContractType;
     }
 
     public String getId() {
